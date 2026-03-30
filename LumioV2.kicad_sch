@@ -10350,7 +10350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 31.75 166.37 0)
 			(effects
 				(font
@@ -10485,7 +10485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 251.46 147.32 0)
 			(effects
 				(font
@@ -10554,7 +10554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 250.19 44.45 0)
 			(effects
 				(font
@@ -10679,7 +10679,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "SS34B"
 			(at 243.84 139.7 90)
 			(effects
 				(font
@@ -10689,7 +10689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 234.315 132.08 0)
 			(effects
 				(font
@@ -10885,7 +10885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 101.6 31.75 0)
 			(effects
 				(font
@@ -10954,7 +10954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 199.0852 127 0)
 			(effects
 				(font
@@ -11023,7 +11023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 173.99 92.71 0)
 			(effects
 				(font
@@ -11288,7 +11288,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "SS34B"
 			(at 238.76 165.1 90)
 			(effects
 				(font
@@ -11298,7 +11298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 229.235 157.48 0)
 			(effects
 				(font
@@ -11376,7 +11376,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "SS34B"
 			(at 233.68 165.1 90)
 			(effects
 				(font
@@ -11386,7 +11386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 224.155 157.48 0)
 			(effects
 				(font
@@ -11465,7 +11465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 101.6 177.7999 0)
 			(effects
 				(font
@@ -11474,7 +11474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 104.4448 180.34 0)
 			(effects
 				(font
@@ -11869,7 +11869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 241.3 54.61 0)
 			(effects
 				(font
@@ -11940,7 +11940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x20_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
 			(at 90.17 81.28 0)
 			(effects
 				(font
@@ -12132,7 +12132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 213.0552 127 0)
 			(effects
 				(font
@@ -12266,7 +12266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 31.75 191.77 0)
 			(effects
 				(font
@@ -12334,7 +12334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 227.33 39.37 0)
 			(effects
 				(font
@@ -12406,7 +12406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 236.22 59.69 0)
 			(effects
 				(font
@@ -12540,7 +12540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 121.92 31.75 0)
 			(effects
 				(font
@@ -12609,7 +12609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 31.75 179.07 0)
 			(effects
 				(font
@@ -12669,7 +12669,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "SS34B"
 			(at 243.84 165.1 90)
 			(effects
 				(font
@@ -12679,7 +12679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 234.315 157.48 0)
 			(effects
 				(font
@@ -12766,7 +12766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 121.92 74.93 0)
 			(effects
 				(font
@@ -12834,7 +12834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 241.3 39.37 0)
 			(effects
 				(font
@@ -12906,7 +12906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 222.25 44.45 0)
 			(effects
 				(font
@@ -12974,7 +12974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 95.25 25.4 0)
 			(effects
 				(font
@@ -13127,7 +13127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 222.25 59.69 0)
 			(effects
 				(font
@@ -13187,7 +13187,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "SS34B"
 			(at 228.6 165.1 90)
 			(effects
 				(font
@@ -13197,7 +13197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 219.075 157.48 0)
 			(effects
 				(font
@@ -13348,7 +13348,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 213.36 39.37 0)
 			(effects
 				(font
@@ -13608,7 +13608,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "SS34B"
 			(at 233.68 139.7 90)
 			(effects
 				(font
@@ -13618,7 +13618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 224.155 132.08 0)
 			(effects
 				(font
@@ -13704,7 +13704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 255.27 39.37 0)
 			(effects
 				(font
@@ -13776,7 +13776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 31.75 153.67 0)
 			(effects
 				(font
@@ -13845,7 +13845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 207.01 44.45 0)
 			(effects
 				(font
@@ -13912,7 +13912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 189.738 90)
 			(effects
 				(font
@@ -13981,7 +13981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 148.59 66.04 0)
 			(effects
 				(font
@@ -14051,7 +14051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 104.4448 187.96 0)
 			(effects
 				(font
@@ -14119,7 +14119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 213.36 54.61 0)
 			(effects
 				(font
@@ -14266,7 +14266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 139.7 64.77 0)
 			(effects
 				(font
@@ -14334,7 +14334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 115.57 25.4 0)
 			(effects
 				(font
@@ -14410,7 +14410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 181.61 92.71 0)
 			(effects
 				(font
@@ -14544,7 +14544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 250.19 59.69 0)
 			(effects
 				(font
@@ -14613,7 +14613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 236.22 44.45 0)
 			(effects
 				(font
@@ -14673,7 +14673,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "SS34B"
 			(at 238.76 139.7 90)
 			(effects
 				(font
@@ -14683,7 +14683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 229.235 132.08 0)
 			(effects
 				(font
@@ -14769,7 +14769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 227.33 54.61 0)
 			(effects
 				(font
@@ -14832,7 +14832,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "SS34B"
 			(at 228.6 139.7 90)
 			(effects
 				(font
@@ -14842,7 +14842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 219.075 132.08 0)
 			(effects
 				(font
@@ -14929,7 +14929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 208.28 59.69 0)
 			(effects
 				(font
@@ -14999,7 +14999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D21.0mm_P19.00mm"
 			(at 110.49 168.91 0)
 			(effects
 				(font
@@ -15067,7 +15067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 255.27 54.61 0)
 			(effects
 				(font
@@ -15202,7 +15202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical"
 			(at 133.35 87.63 0)
 			(effects
 				(font
@@ -15419,7 +15419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 251.46 139.7 0)
 			(effects
 				(font
