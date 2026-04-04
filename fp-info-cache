@@ -1,4 +1,4 @@
-27353859765228619
+27359184597273681
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70657,6 +70657,27 @@ CONN_5051102091_MOL
 0
 22
 22
+KicadLibs
+DFN_XGIQ TR_WIN
+
+W25Q64JVXGIQ TR 
+0
+9
+9
+KicadLibs
+DFN_XGIQ TR_WIN-L
+
+W25Q64JVXGIQ TR 
+0
+9
+9
+KicadLibs
+DFN_XGIQ TR_WIN-M
+
+W25Q64JVXGIQ TR 
+0
+9
+9
 KicadLibs
 MODULE_CM5108032
 

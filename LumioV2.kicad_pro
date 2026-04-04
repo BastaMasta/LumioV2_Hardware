@@ -605,6 +605,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_DVDD",
+          "name": "KLC_S4.2_DVDD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_VREG_VOUT",
+          "name": "KLC_S4.2_VREG_VOUT",
+          "show": false
         }
       ],
       "filter_string": "",
