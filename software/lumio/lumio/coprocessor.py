@@ -11,7 +11,8 @@ The RP2040 firmware speaks a simple newline-delimited JSON protocol:
 
   Host → RP2040   {"cmd": "gpio_write", "pin": 3, "value": 1}
   Host → RP2040   {"cmd": "gpio_read",  "pin": 4}
-  Host → RP2040   {"cmd": "adc_read",   "ch": 0}
+  Host → RP2040   {"cmd": "adc_read",   "pin": 26}   # GP26/27/28/29 only
+  Host → RP2040   {"cmd": "gpio_set_mode", "pin": 5, "mode": "input", "label": "IR sensor"}
   Host → RP2040   {"cmd": "ping"}
 
   RP2040 → Host   {"ok": true,  "value": <int|float>}
@@ -156,8 +157,20 @@ class RP2040:
             return reply.get("value")
         return None
 
-    def adc_read(self, channel: int) -> float | None:
-        reply = self.send({"cmd": "adc_read", "ch": channel})
+    def gpio_set_mode(self, pin: int, mode: str, label: str = "") -> bool:
+        """
+        Configure a pin's mode on the RP2040.
+        mode: 'input' | 'output' | 'adc' | 'pwm' | 'unused'
+        ADC mode is only valid for GP26–GP29.
+        """
+        reply = self.send({"cmd": "gpio_set_mode", "pin": pin, "mode": mode, "label": label})
+        return bool(reply and reply.get("ok"))
+
+    def adc_read(self, pin: int) -> float | None:
+        """Read ADC voltage (0.0–3.3 V) from an RP2040 ADC pin (GP26–GP29).
+        Pin must already be configured in 'adc' mode via gpio_set_mode().
+        """
+        reply = self.send({"cmd": "adc_read", "pin": pin})  # firmware reads "pin", not "ch"
         if reply and reply.get("ok"):
             return reply.get("value")
         return None

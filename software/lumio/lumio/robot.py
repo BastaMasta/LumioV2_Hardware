@@ -97,13 +97,13 @@ class RobotController:
             while GPIO.input(echo_pin) == 0:
                 if time.monotonic() > deadline:
                     return 999.0
-                t_start = time.monotonic()
+            t_start = time.monotonic()
 
             deadline = time.monotonic() + 0.1
             while GPIO.input(echo_pin) == 1:
                 if time.monotonic() > deadline:
                     return 999.0
-                t_end = time.monotonic()
+            t_end = time.monotonic()
 
             return round((t_end - t_start) * 17150, 2)
         except Exception as exc:

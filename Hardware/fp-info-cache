@@ -1,4 +1,4 @@
-27371611923611617
+27359185492136878
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70658,6 +70658,13 @@ CONN_5051102091_MOL
 22
 22
 KicadLibs
+CONN_SS-53000_STW
+
+SS-53000-001 
+0
+19
+19
+KicadLibs
 DFN_XGIQ TR_WIN
 
 W25Q64JVXGIQ TR 
@@ -71938,34 +71945,6 @@ Yellow 5381 Series LED
 0
 2
 2
-LM2577T
-DFN_XGIQ TR_WIN
-
-W25Q64JVXGIQ TR 
-0
-9
-9
-LM2577T
-DFN_XGIQ TR_WIN-L
-
-W25Q64JVXGIQ TR 
-0
-9
-9
-LM2577T
-DFN_XGIQ TR_WIN-M
-
-W25Q64JVXGIQ TR 
-0
-9
-9
-LM2577T
-T05A_TEX
-
-LM2577T-ADJ/NOPB 
-0
-5
-5
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -108072,31 +108051,3 @@ Varistor VF
 0
 2
 2
-footprints
-DFN_XGIQ TR_WIN
-
-W25Q64JVXGIQ TR 
-0
-9
-9
-footprints
-DFN_XGIQ TR_WIN-L
-
-W25Q64JVXGIQ TR 
-0
-9
-9
-footprints
-DFN_XGIQ TR_WIN-M
-
-W25Q64JVXGIQ TR 
-0
-9
-9
-footprints
-T05A_TEX
-
-LM2577T-ADJ/NOPB 
-0
-5
-5

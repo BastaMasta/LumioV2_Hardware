@@ -17,7 +17,7 @@ import logging
 import threading
 from queue import Queue, Empty
 
-from flask import Flask, render_template_string, jsonify, request
+from flask import Flask, render_template, jsonify, request
 from flask_socketio import SocketIO, emit
 
 from lumio.robot import RobotController
@@ -48,12 +48,12 @@ def _rp_event_handler(frame: dict):
 
 @app.route("/")
 def index():
-    return render_template_string(open("templates/control.html").read())
+    return render_template("control.html")
 
 
 @app.route("/gpio")
 def gpio_page():
-    return render_template_string(open("templates/gpio.html").read())
+    return render_template("gpio.html")
 
 
 @app.route("/api/status")
@@ -83,9 +83,9 @@ def api_gpio_config():
     results = []
     for cfg in configs:
         pin   = cfg.get("pin")
-        mode  = cfg.get("mode", "input")   # 'input' | 'output'
-        value = 1 if mode == "input" else 0
-        ok    = _rp.gpio_write(pin, value)  # firmware interprets value as mode-set command
+        mode  = cfg.get("mode", "input")   # 'input' | 'output' | 'adc' | 'pwm' | 'unused'
+        label = cfg.get("label", "")
+        ok    = _rp.gpio_set_mode(pin, mode, label)
         results.append({"pin": pin, "ok": ok})
     return jsonify({"ok": True, "results": results})
 
